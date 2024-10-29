@@ -1,3 +1,9 @@
+# Dictionary Jisho
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e5b2b15c-e517-4466-ba9d-cf693728a7a4/deploy-status)](https://app.netlify.com/sites/dictionary-jisho/deploys)
+
+A dictionary app built with React...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
