@@ -20,11 +20,15 @@ export default function App() {
           and is open-sourced on{" "}
           <a
             href="https://github.com/Konnichiwaitsnahoko/dictionary-app"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer">
             GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://dictionary-jisho.netlify.app/" target="_blank">
+          <a
+            href="https://dictionary-jisho.netlify.app/"
+            target="_blank"
+            rel="noreferrer">
             Netlify
           </a>
           .
