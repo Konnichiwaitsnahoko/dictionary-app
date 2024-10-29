@@ -14,7 +14,10 @@ export default function App() {
 
         <footer className="text-center">
           This project is coded by{" "}
-          <a href="https://github.com/Konnichiwaitsnahoko" target="_blank">
+          <a
+            href="https://github.com/Konnichiwaitsnahoko"
+            target="_blank"
+            rel="noreferrer">
             Nahoko Park
           </a>{" "}
           and is open-sourced on{" "}
