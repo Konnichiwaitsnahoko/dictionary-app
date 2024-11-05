@@ -1,0 +1,25 @@
+/* Container for synonyms */
+.Synonyms {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5em 0 0;
+}
+
+.Synonyms li {
+  background-color: #d0e6f7;
+  color: #2c3e50;
+  padding: 0.3em 0.7em;
+  margin: 0.2em;
+  border-radius: 16px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.Synonyms p {
+  margin: 0;
+  font-size: 1em;
+  color: #2c3e50;
+  font-weight: bold;
+}
