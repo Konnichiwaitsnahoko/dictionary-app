@@ -1,0 +1,62 @@
+/* General container for the photos section */
+.Photos {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Row to handle the layout with responsive grid */
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for each column */
+.col {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image styles */
+.col img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.col:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.col a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.col img {
+  display: block;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .row {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
